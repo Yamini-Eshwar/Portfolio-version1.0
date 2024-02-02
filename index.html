@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--.....................Custom Css Link.............................-->
+    <link rel="stylesheet" href="./style.css">
+    <!--.....................Font Awesome Link...........................-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!--..................... Start Nav Bar..............................-->
+    <nav>
+        <div class="container nav-container">
+            <a href="" class="logo"><h3>Portfolio</h3></a>
+            <ul class="nav-links">
+                <li> <a href="">Home</a>      </li>
+                <li> <a href="">About</a>     </li>
+                <li> <a href="">Services</a>  </li>
+                <li> <a href="">Skills</a>    </li>
+                <li> <a href="">Portfolio</a> </li>
+                <li> <a href="">Contact</a>   </li>
+            </ul>
+        </div>
+    </nav>
+    <!--......................End Nav Bar................................-->
+
+
+    <!--..................... Start Header Section ......................-->
+    <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <h1>It's Me The Yamini Guttikonda</h1>
+                <h2>Front End <span class="typed-text"></span>  </h2>
+                <p>
+                    Hello! I'm a passionate frontend developer skilled in HTML, CSS, and JavaScript. With a keen eye for design and a focus on responsive and interactive web development, I create seamless and engaging user experiences.
+                </p>
+                <a href="https://github.com/Yamini-Eshwar/pdfViewer.git" class="btn" download="./Recent.pdf">Download CV</a>
+            </div>
+            <div class="header-right">
+               <div class="hero-image">
+                  <img src="./assets/pic4 (1).png" alt=""/> 
+               </div>
+               <div class="round">
+                    <div class="moon">
+
+                    </div>
+               </div>
+            </div>
+            <div class="social-link">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Yamini-Eshwar"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="yaminiguttikonda1@gmail.com" class="link">Hire Me</a>
+        </div>
+    </header>
+    <!--..................... End Header Section ........................-->
+    <script src="./typed.js-main/dist/typed.umd.js"></script>
+    <script>
+        let typed= new Typed('.typed-text' ,{
+            strings: ['web developer', 'Apps Developer'],
+            typeSpeed: 100,
+            backSpeed: 50,
+            backDelay:1000,
+            loop: true,
+        })
+        
+    </script>
+    
+</body>
+</html>
